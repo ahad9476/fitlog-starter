@@ -14,7 +14,7 @@ export default function Navbar() {
   const { plan, saved } = usePlan();
 
   return (
-    <header className="sticky top-0 z-50 bg-surface2/95 backdrop-blur border-b border-border">
+    <header className="sticky top-0 z-50 bg-[#1E1E1E] backdrop-blur border-b border-border">
       <nav className="mx-auto max-w-7xl px-4 md:px-8 h-16 flex items-center justify-between">
         {/* Logo - left */}
         <Link href="/" className="flex items-center gap-2 shrink-0">
