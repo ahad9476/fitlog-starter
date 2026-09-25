@@ -47,7 +47,7 @@ export default function WorkoutDetailClient({ workout }: { workout: Workout }) {
         </div>
 
         {/* Key specs panel */}
-        <div className="mt-6 bg-surface border border-border rounded-xl2 divide-y divide-border">
+        <div className="mt-6 bg-[#1E2330] border-border rounded-xl2 divide-y divide-border">
           {specLabels.map(({ key, label }) => (
             <div key={label} className="flex justify-between px-4 py-3 text-sm">
               <span className="text-muted">{label}</span>
@@ -64,8 +64,8 @@ export default function WorkoutDetailClient({ workout }: { workout: Workout }) {
           <ol className="space-y-3">
             {workout.instructions?.map((step, i) => (
               <li key={i} className="flex gap-3 text-sm text-muted">
-                <span className="shrink-0 h-6 w-6 rounded-full bg-accent text-black text-xs font-bold flex items-center justify-center">
-                  {i + 1}
+                <span className="shrink-0 h-6 w-6 text-muted text-xs font-bold flex items-center justify-center">
+                  {i + 1}.
                 </span>
                 {step}
               </li>

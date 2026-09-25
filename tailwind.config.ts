@@ -8,19 +8,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: "#0d0d0d",          // page background (near-black)
-        surface: "#161616",     // card / panel background
-        surface2: "#1f1f1f",    // slightly lighter panel (navbar, footer)
-        border: "#2a2a2a",
-        accent: "#ccff00",      // lime accent - Plan badge, CTA
-        muted: "#9a9a9a",
+        bg: "#0f1115",          
+        surface: "#15171d",     
+        surface2: "#1b1f28", 
+        border: "#2d313b",
+        accent: "#c2f800",    
+        muted: "#8a92a0",
       },
       fontFamily: {
-        display: ["var(--font-oswald)", "sans-serif"], // headings
-        body: ["var(--font-inter)", "sans-serif"],     // body text
+        display: ["var(--font-inter)", "sans-serif"], 
+        body: ["var(--font-inter)", "sans-serif"],  
       },
       borderRadius: {
-        xl2: "1.25rem",
+        xl2: "1rem",
       },
     },
   },

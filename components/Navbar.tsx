@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { usePlan } from "@/context/PlanContext";
 
 const links = [
-  { href: "/", label: "Workout" },
+  { href: "/", label: "Workouts" },
   { href: "/my-plan", label: "My Plan" },
 ];
 

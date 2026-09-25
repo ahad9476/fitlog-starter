@@ -1,16 +1,13 @@
 import type { Metadata } from "next";
-import { Oswald, Inter } from "next/font/google";
+import { Inter } from "next/font/google";
+// @ts-ignore -- CSS imports are handled by Next.js and this project may not include the generated .d.ts file
 import "./globals.css";
 import { PlanProvider } from "@/context/PlanContext";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Toaster } from "react-hot-toast";
 
-const oswald = Oswald({
-  subsets: ["latin"],
-  variable: "--font-oswald",
-  weight: ["500", "600", "700"],
-});
+
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
@@ -26,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${oswald.variable} ${inter.variable}`}>
+      <body className={inter.variable}>
         <PlanProvider>
           <Navbar />
           {children}

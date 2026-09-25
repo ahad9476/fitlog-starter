@@ -55,16 +55,16 @@ export default function PlanWorkoutCard({
         {tab === "plan" && onMarkDone && (
           <button
             onClick={() => onMarkDone(item.id)}
-            title="Mark as done"
-            className="p-1.5 rounded-full border border-border hover:border-accent"
+            className="inline-flex items-center gap-1.5 bg-accent text-black text-xs font-bold px-4 py-2 rounded-full hover:opacity-90 transition"
           >
-            <CheckCircle2 size={16} />
+            <CheckCircle2 size={14} />
+            Mark as Done
           </button>
         )}
         <button
           onClick={() => onRemove(item.id)}
           title="Remove"
-          className="p-1.5 rounded-full border border-border hover:border-red-400"
+          className="p-2 rounded-full border border-border hover:border-red-400 text-muted hover:text-red-400"
         >
           <X size={16} />
         </button>

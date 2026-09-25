@@ -21,7 +21,7 @@ export default function WorkoutCard({ workout }: { workout: Workout }) {
           {workout.category?.map((tag) => (
             <span
               key={tag}
-              className="text-[10px] uppercase font-bold tracking-wide bg-surface2 text-muted px-2 py-0.5 rounded-full"
+              className="text-[10px] uppercase font-bold tracking-wide bg-accent text-black px-3 py-1 rounded-full"
             >
               {tag}
             </span>
