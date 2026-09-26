@@ -2,7 +2,7 @@
 const nextConfig = {
   images: {
     remotePatterns: [
-      { protocol: "https", hostname: "**" }, // allow workout images from the API
+      { protocol: "https", hostname: "**" }, 
     ],
   },
 };

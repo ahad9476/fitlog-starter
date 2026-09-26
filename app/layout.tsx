@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-// @ts-ignore -- CSS imports are handled by Next.js and this project may not include the generated .d.ts file
+
 import "./globals.css";
 import { PlanProvider } from "@/context/PlanContext";
 import Navbar from "@/components/Navbar";

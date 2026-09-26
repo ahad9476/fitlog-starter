@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 💪 FitLog — Workout Library
 
 A dark, no-nonsense gym companion built with Next.js. Browse a library of
@@ -31,12 +30,6 @@ My Plan page — all persisted in the browser so nothing is lost on refresh.
 5. Plan and Saved lists persist across page reloads via localStorage
 6. Custom 404 page and a loading state while workout data is fetched
 
-## Getting Started
-
-```bash
-npm install
-npm run dev
-```
 
 Open http://localhost:3000
 
@@ -46,7 +39,4 @@ _(fill in after deployment)_
 
 ## GitHub Repository Link
 
-_(fill in)_
-=======
-# fitlog-starter
->>>>>>> b1b1a23f67d1dd1ae0ab47d52a1ea3dbfdd7fd16
+(https://github.com/ahad9476/fitlog-starter.git)

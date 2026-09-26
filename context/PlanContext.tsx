@@ -45,9 +45,6 @@ export function PlanProvider({ children }: { children: ReactNode }) {
       setIsLoaded(true);
     }
   }, []);
-
-  // Persist on every change (only after the initial load, so we don't
-  // overwrite saved data with an empty array on first render).
   useEffect(() => {
     if (isLoaded) localStorage.setItem(PLAN_KEY, JSON.stringify(plan));
   }, [plan, isLoaded]);

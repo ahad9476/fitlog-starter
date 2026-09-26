@@ -12,7 +12,6 @@ export default function LibraryGrid({ workouts }: { workouts: Workout[] }) {
 
   const sorted = useMemo(() => {
     return [...workouts].sort((a, b) => b[sortBy] - a[sortBy]);
-    // using descending order; switch to (a[sortBy] - b[sortBy]) for ascending
   }, [workouts, sortBy]);
 
   return (
