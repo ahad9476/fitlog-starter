@@ -35,7 +35,7 @@ Open http://localhost:3000
 
 ## Live Link
 
-_(fill in after deployment)_
+fitlogstarter.netlify.app
 
 ## GitHub Repository Link
 
