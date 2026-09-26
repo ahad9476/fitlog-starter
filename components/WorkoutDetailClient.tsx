@@ -36,7 +36,7 @@ export default function WorkoutDetailClient({ workout }: { workout: Workout }) {
         <p className="text-muted mt-3">{workout.description}</p>
 
         <div className="flex flex-wrap gap-2 mt-4">
-          {workout.category?.map((tag) => (
+          {workout.muscleGroups?.map((tag) => (
             <span
               key={tag}
               className="text-[10px] uppercase font-bold bg-surface2 text-muted px-2 py-1 rounded-full"

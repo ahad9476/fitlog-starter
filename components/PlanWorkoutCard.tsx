@@ -24,6 +24,16 @@ export default function PlanWorkoutCard({
       />
 
       <div className="flex-1 min-w-0">
+        <div className="flex flex-wrap gap-1 mb-1">
+  {item.muscleGroups?.map((tag) => (
+    <span
+      key={tag}
+      className="text-[9px] uppercase font-bold tracking-wide bg-accent text-black px-2 py-0.5 rounded-full"
+    >
+      {tag}
+    </span>
+  ))}
+</div>
         <h3
           className={`font-display uppercase font-semibold truncate ${
             item.done ? "line-through text-muted" : "text-white"

@@ -18,10 +18,10 @@ export default function WorkoutCard({ workout }: { workout: Workout }) {
 
       <div className="p-4 flex flex-col gap-2 flex-1">
         <div className="flex flex-wrap gap-1">
-          {workout.category?.map((tag) => (
+          {workout.muscleGroups?.map((tag) => (
             <span
               key={tag}
-              className="text-[10px] uppercase font-bold tracking-wide bg-accent text-black px-3 py-1 rounded-full"
+             className="text-[10px] uppercase font-bold tracking-wide bg-accent text-black px-3 py-1 rounded-full"
             >
               {tag}
             </span>
